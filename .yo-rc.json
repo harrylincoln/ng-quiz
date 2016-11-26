@@ -1,0 +1,23 @@
+{
+  "generator-fountain-angular1": {
+    "version": "1.0.0-rc1",
+    "props": {
+      "framework": "angular1",
+      "js": "babel",
+      "namespace": "fountain-angular1:app",
+      "resolved": "/Users/Harry/.nvm/versions/node/v4.4.3/lib/node_modules/generator-fountain-angular1/generators/app/index.js",
+      "css": "scss",
+      "modules": "webpack",
+      "argv": {
+        "remain": [],
+        "cooked": [],
+        "original": []
+      },
+      "ci": [
+        "travis"
+      ],
+      "sample": "hello",
+      "router": "uirouter"
+    }
+  }
+}
