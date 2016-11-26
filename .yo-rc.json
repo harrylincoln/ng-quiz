@@ -3,7 +3,7 @@
     "version": "1.0.0-rc1",
     "props": {
       "framework": "angular1",
-      "js": "babel",
+      "js": "js",
       "namespace": "fountain-angular1:app",
       "resolved": "/Users/Harry/.nvm/versions/node/v4.4.3/lib/node_modules/generator-fountain-angular1/generators/app/index.js",
       "css": "scss",
@@ -13,9 +13,7 @@
         "cooked": [],
         "original": []
       },
-      "ci": [
-        "travis"
-      ],
+      "ci": [],
       "sample": "hello",
       "router": "uirouter"
     }

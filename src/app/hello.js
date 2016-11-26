@@ -1,6 +1,6 @@
-export const hello = {
+module.exports = {
   template: require('./hello.html'),
-  controller() {
+  controller: function () {
     this.hello = 'Hello World!';
   }
 };

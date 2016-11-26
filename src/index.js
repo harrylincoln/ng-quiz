@@ -1,12 +1,13 @@
-import angular from 'angular';
+var angular = require('angular');
 
-import {hello} from './app/hello';
-import 'angular-ui-router';
-import routesConfig from './routes';
+var hello = require('./app/hello');
+require('angular-ui-router');
+var routesConfig = require('./routes');
 
-import './index.scss';
+require('./index.scss');
 
-export const app = 'app';
+var app = 'app';
+module.exports = app;
 
 angular
   .module(app, ['ui.router'])

@@ -1,2 +1,0 @@
-# ng-quiz
-Quiz workings
