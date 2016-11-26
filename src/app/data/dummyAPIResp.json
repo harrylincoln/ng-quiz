@@ -1,0 +1,105 @@
+{
+    "parts" : [
+        "step-1" : [
+            {
+                "type" : "Intro Video",
+                "data" : {
+                    "title" : "Welcome to this interactive",
+                    "video-src" : "aws/someVid.mp4"
+                }
+            },
+            {
+                "type" : "mutilple-choice-quiz",
+                "data" : {
+                    "quiz-title" : "Time of the month",
+                    "quiz-slides" : [
+                        {
+                            "slide-block-type": "Intro pane",
+                            "img" : "/some/path/img.img",
+                            "title" : "Welcome to this part",
+                            "description" : "Loads of stuff about this step and that step 
+                            sdfsdsdsdsdasg sa gsa gs g sg gs g gdfdf."
+
+                        },
+                        {
+                            "slide-block-type": "options",
+                            "slide-block-title": "Where is this place?",
+                            "options": [
+                                {
+                                    "option": "Is it in France?",
+                                    "correct": true
+                                },
+                                {
+                                    "option": "Is it in England?",
+                                    "correct": false
+                                },
+                                {
+                                    "option": "Is it in Wales?",
+                                    "correct": false
+                                },
+                                {
+                                    "option": "Is it in Timbuktu?",
+                                    "correct": false
+                                },
+                            ]
+                        },
+                        {
+                            "slide-block-type": "options",
+                            "slide-block-title": "What do they eat there?",
+                            "options": [
+                                {
+                                    "option": "Burgers",
+                                    "correct": true
+                                },
+                                {
+                                    "option": "Whales",
+                                    "correct": false
+                                },
+                                {
+                                    "option": "Parsley",
+                                    "correct": false
+                                },
+                                {
+                                    "option": "They don't eat anything at all.",
+                                    "correct": false
+                                },
+                            ]
+                        }
+                    ]
+                }
+            },
+            {
+                "type" : "static-page",
+                "data" : {
+                    "title" : "Well done for completely the quiz!",
+                    "image" : "/sdfsd/sdfsdf/dsfdfs.img",
+                    "copy" : "Some stuff about how amazing they just were with all of it."
+                }                
+            },
+            {
+                "type" : "multi-select-video",
+                "data" : {
+                    "title" : "Choose an issue you would like to hear about",
+                    "issues" : [
+                        {
+                            "bubble-text": "Ah man, there's so much mess.",
+                            "video-src": "/video-man.mp4",
+                        },
+                        {
+                            "bubble-text": "What will my mother say?",
+                            "video-src": "/video-mum.mp4",
+                        },
+                        {
+                            "bubble-text": "How am I supposed to do anything?",
+                            "video-src": "/video-anything.mp4",
+                        }
+                    ]
+                }
+            }
+
+
+        ], //end of step-1
+        ,
+        "step-2" : {}
+    ]
+}

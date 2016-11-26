@@ -1,5 +1,5 @@
 module.exports = {
-  template: require('./hello.html'),
+  template: require('./determine-group.html'),
   controller: function () {
     this.hello = 'Hello World!';
   }

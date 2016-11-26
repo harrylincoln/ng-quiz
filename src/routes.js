@@ -6,12 +6,12 @@ function routesConfig($stateProvider, $urlRouterProvider, $locationProvider) {
   $urlRouterProvider.otherwise('/');
 
   $stateProvider
-    .state('home', {
+    .state('determineGroup', {
       url: '/',
-      component: 'app'
+      component: 'determineGroupComp'
     })
     .state('jimmy', {
       url: '/jimmy',
-      component: 'jimmy'
+      component: 'jimmyComp'
     });
 }
