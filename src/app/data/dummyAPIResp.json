@@ -1,20 +1,20 @@
 {
     "parts" : [
-        "step-1" : [
+        "step_1" : [
             {
                 "type" : "Intro Video",
                 "data" : {
                     "title" : "Welcome to this interactive",
-                    "video-src" : "aws/someVid.mp4"
+                    "video_src" : "aws/someVid.mp4"
                 }
             },
             {
-                "type" : "mutilple-choice-quiz",
+                "type" : "mutilple_choice_quiz",
                 "data" : {
-                    "quiz-title" : "Time of the month",
-                    "quiz-slides" : [
+                    "quiz_title" : "Time of the month",
+                    "quiz_slides" : [
                         {
-                            "slide-block-type": "Intro pane",
+                            "slide_block_type": "Intro pane",
                             "img" : "/some/path/img.img",
                             "title" : "Welcome to this part",
                             "description" : "Loads of stuff about this step and that step 
@@ -22,8 +22,8 @@
 
                         },
                         {
-                            "slide-block-type": "options",
-                            "slide-block-title": "Where is this place?",
+                            "slide_block_type": "options",
+                            "slide_block_title": "Where is this place?",
                             "options": [
                                 {
                                     "option": "Is it in France?",
@@ -44,8 +44,8 @@
                             ]
                         },
                         {
-                            "slide-block-type": "options",
-                            "slide-block-title": "What do they eat there?",
+                            "slide_block_type": "options",
+                            "slide_block_title": "What do they eat there?",
                             "options": [
                                 {
                                     "option": "Burgers",
@@ -69,7 +69,7 @@
                 }
             },
             {
-                "type" : "static-page",
+                "type" : "static_page",
                 "data" : {
                     "title" : "Well done for completely the quiz!",
                     "image" : "/sdfsd/sdfsdf/dsfdfs.img",
@@ -77,29 +77,29 @@
                 }                
             },
             {
-                "type" : "multi-select-video",
+                "type" : "multi_select_video",
                 "data" : {
                     "title" : "Choose an issue you would like to hear about",
                     "issues" : [
                         {
-                            "bubble-text": "Ah man, there's so much mess.",
-                            "video-src": "/video-man.mp4",
+                            "bubble_text": "Ah man, there's so much mess.",
+                            "video_src": "/video_man.mp4",
                         },
                         {
-                            "bubble-text": "What will my mother say?",
-                            "video-src": "/video-mum.mp4",
+                            "bubble_text": "What will my mother say?",
+                            "video_src": "/video_mum.mp4",
                         },
                         {
-                            "bubble-text": "How am I supposed to do anything?",
-                            "video-src": "/video-anything.mp4",
+                            "bubble_text": "How am I supposed to do anything?",
+                            "video_src": "/video_anything.mp4",
                         }
                     ]
                 }
             }
 
 
-        ], //end of step-1
+        ], //end of step_1
         ,
-        "step-2" : {}
+        "step_2" : {}
     ]
 }

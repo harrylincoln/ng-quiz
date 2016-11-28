@@ -2,7 +2,7 @@
 var angular = require('angular');
 
 // declare services
-var StepsService = require('./app/services/StepsService.js');
+// var StepsService = require('./app/services/StepsService.js');
 
 // declare components
 var determineGroup = require('./app/components/determine-group/determine-group.js');
@@ -22,7 +22,7 @@ module.exports = app;
 // component calls
 angular
   .module(app, ['ui.router'])
-  .service('StepsService', StepsService)
+  // .service('StepsService', StepsService)
   .config(routesConfig)
   .component('determineGroupComp', determineGroup)
   .component('jimmyComp', jimmy);
